@@ -37,7 +37,11 @@ const Header = () => {
         </ul>
         <ul className="ml-auto">
           <li className="social-cta-link">
-            <a href="https://go.charitableimpact.com/facebook" target="_blank">
+            <a
+              href="https://go.charitableimpact.com/facebook"
+              target="_blank"
+              rel="noreferrer"
+            >
               <StaticImage
                 src="../images/social-icon-facebook-dark.webp"
                 alt="Faceboot"
@@ -45,7 +49,11 @@ const Header = () => {
             </a>
           </li>
           <li className="social-cta-link">
-            <a href="https://go.charitableimpact.com/linkedin" target="_blank">
+            <a
+              href="https://go.charitableimpact.com/linkedin"
+              target="_blank"
+              rel="noreferrer"
+            >
               <StaticImage
                 src="../images/social-icon-linkedin-dark.webp"
                 alt="Linkedin"
@@ -53,7 +61,11 @@ const Header = () => {
             </a>
           </li>
           <li className="social-cta-link">
-            <a href="https://go.charitableimpact.com/twitter" target="_blank">
+            <a
+              href="https://go.charitableimpact.com/twitter"
+              target="_blank"
+              rel="noreferrer"
+            >
               <StaticImage
                 src="../images/social-icon-twitter-dark.webp"
                 alt="Twitter"
@@ -61,7 +73,11 @@ const Header = () => {
             </a>
           </li>
           <li className="social-cta-link">
-            <a href="https://go.charitableimpact.com/instagram" target="_blank">
+            <a
+              href="https://go.charitableimpact.com/instagram"
+              target="_blank"
+              rel="noreferrer"
+            >
               <StaticImage
                 src="../images/social-icon-instagram-dark.webp"
                 alt="Instagram"
