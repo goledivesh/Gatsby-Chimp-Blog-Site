@@ -1,0 +1,135 @@
+$font: "Helvetica Neue", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+  Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+
+//Color
+$white: #fff;
+$black: #000;
+$header-height: 85px;
+
+body {
+  font-family: $font;
+  background-color: $white;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.ml-auto {
+  margin-left: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 50px;
+  height: $header-height;
+  box-shadow: 0 1px 4px 0 rgba(209, 209, 209, 0.5);
+
+  ul {
+    list-style: none;
+  }
+
+  .header-logo--wrap {
+    ul {
+      display: flex;
+      align-items: center;
+      margin: auto 20px;
+    }
+
+    .chimp-logo {
+      padding-right: 10px;
+      border-right: 1px solid $black;
+
+      a {
+        display: inline-block;
+        padding: 8px 0;
+        margin-right: 10px;
+
+        img {
+          width: 122px;
+        }
+      }
+    }
+
+    .nav-logo-link {
+      padding-left: 15px;
+
+      a {
+        color: #424242;
+        font-weight: bold;
+        font-size: 14px;
+      }
+    }
+  }
+
+  .navbar {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+
+    ul {
+      display: flex;
+      align-items: center;
+      height: $header-height;
+
+      li.nav-cta-link {
+        display: flex;
+        height: 100%;
+        a {
+          color: #3b3434;
+          font-size: 14px;
+          margin: auto 15px;
+          display: block;
+          padding: 8px 16px;
+        }
+        &:hover {
+          border-bottom: 2px solid $black;
+        }
+        &.nav-cta-A:hover {
+          border-bottom-color: #009ea1;
+          a {
+            color: #009ea1;
+          }
+        }
+        &.nav-cta-B:hover {
+          border-bottom-color: #ed803b;
+          a {
+            color: #ed803b;
+          }
+        }
+        &.nav-cta-C:hover {
+          border-bottom-color: #db0163;
+          a {
+            color: #db0163;
+          }
+        }
+        &.nav-cta-D:hover {
+          border-bottom-color: #9142a1;
+          a {
+            color: #9142a1;
+          }
+        }
+      }
+
+      .social-cta-link {
+        width: 16px;
+        display: inline-flex;
+        margin: auto 10px;
+
+        a {
+          img {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+}
